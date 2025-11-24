@@ -49,7 +49,7 @@ export default function InstallPrompt() {
             {deferredPrompt && (
                 <button
                     onClick={handleInstallClick}
-                    className="fixed bottom-4 right-4 z-50 flex items-center gap-2 rounded-full bg-blue-600 px-4 py-3 text-white shadow-lg transition-transform hover:scale-105 active:scale-95"
+                    className="fixed bottom-4 right-4 z-50 flex items-center gap-2 rounded-full bg-black px-4 py-3 text-white shadow-lg transition-transform hover:scale-105 active:scale-95"
                 >
                     <Download size={20} />
                     <span className="font-medium">Install App</span>
