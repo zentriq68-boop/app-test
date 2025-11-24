@@ -26,9 +26,6 @@ export function ChatHeader({ isSidebarOpen, onToggleSidebar }: ChatHeaderProps) 
                 <div className="flex flex-col">
                     <h1 className="text-sm font-semibold text-navy-900 dark:text-white flex items-center gap-2">
                         New Conversation
-                        <span className="px-2 py-0.5 rounded-full bg-ocean-100 dark:bg-ocean-900/30 text-ocean-700 dark:text-ocean-300 text-[10px] font-bold uppercase tracking-wider">
-                            GPT-4
-                        </span>
                     </h1>
                     <p className="text-xs text-navy-500 dark:text-navy-400 flex items-center gap-1">
                         <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
